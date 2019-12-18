@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1zPppkFybZpJehNe3ys0sFVNyheVQ696V'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-OtHigx7THQ5sX6XaZJKY-NP2TwBxVPd'
 export_file_name = 'export_resnet34_model.pkl'
 
 classes = ['EOSINOPHIL', 'LYMPHOCYTE', 'MONOCYTE', 'NEUTROPHIL']
